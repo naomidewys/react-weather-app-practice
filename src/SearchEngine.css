@@ -1,0 +1,63 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.day,
+.time {
+  margin: -25px 0 20px;
+  padding: 0 3px;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.description,
+.wind,
+.humidity {
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+.col.current-temperature {
+  font-size: 50px;
+}
+
+.col.current-weather {
+  margin: -20px 0 5px;
+}
+
+.units {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#search {
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: solid 1px;
+}
+
+#button {
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: solid 1px;
+}
