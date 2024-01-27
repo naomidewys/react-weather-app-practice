@@ -1,0 +1,10 @@
+.container {
+  border: solid 1px;
+  border-radius: 15px;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgb(172, 141, 216) 0%,
+    rgb(249, 227, 172) 100%
+  );
+}

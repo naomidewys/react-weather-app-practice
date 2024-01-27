@@ -1,9 +1,12 @@
 import "./App.css";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
-      <footer>Coded by Naomi De Wys</footer>
+      <div className="container">
+        <Footer />
+      </div>
     </div>
   );
 }
