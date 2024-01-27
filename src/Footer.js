@@ -21,7 +21,15 @@ export default function Footer() {
       >
         GitHub
       </a>
-      , and hosted on Netlify.
+      , and hosted on{" "}
+      <a
+        href="https://react-weather-app-ndw.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Netlify
+      </a>
+      .
     </p>
   );
 }
